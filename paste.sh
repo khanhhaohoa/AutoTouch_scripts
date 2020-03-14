@@ -1,5 +1,5 @@
 t=@\"$1\"
-cycript -p SpringBoard<< EOF
+<< EOF
 x=[UIPasteboard generalPasteboard ]
 ret=[x setString:$t]
 EOF
